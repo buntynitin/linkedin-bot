@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    height: auto;
+    background-color: #457b9d;
+}
+
+.header {
+    padding: 1em;
+    background-color: #1d3557;
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    color: #fff;
+    font-size: 18px;
+}
+
+.indicator {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #457b9d;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #fff;
+}
+
+.indicator-text {
+    font-size: 46px;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em;
+}
+
+.invitations {
+    display: flex;
+    justify-content: center;
+}
+
+.invitations-text {
+    font-size: 16px;
+    color: #edf2f4;
+}
+
+.action-button {
+    border: 1px solid #fff;
+    outline: none;
+    background-color: #55a630;
+    padding: 0.6em;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.indicator-align {
+    display: flex;
+    align-items: baseline;
+}
+
+.total-count {
+    color: #fff;
+    font-size: 16px;
+}
